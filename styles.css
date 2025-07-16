@@ -2,16 +2,22 @@ h1{
     display: flex;
     justify-content: center;
     font-size: 40px;
-    color: pink;
+    color: #d567af;
     font-weight: 400;
     font-style: normal;
+    font-family: monospace;
+}
+
+h2{
+    font-family:Lucida;
+
 }
 
 .pink-border{
-    border-color: pink;
+    border-color: #d567af;
     border-style:double;
     height: 2px;
-    background-color: pink;
+    background-color: #d567af;
 }
 
 
@@ -42,8 +48,12 @@ h1{
 }
 
 .kwk{
-    /* background-color: azure; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     padding-bottom: 10px;
+    padding-right: 100px;
+    padding-left: 100px;
 }
 
 .kwk h1{
@@ -63,7 +73,7 @@ h1{
 .button{
     padding: 15px 32px;
     font-size: 16px;
-    background-color: pink;
+    background-color: #d567af;
     color: white;
     border-color: palevioletred;
 }
